@@ -1,0 +1,57 @@
+.app-container {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #4cafef;
+  margin-bottom: 20px;
+}
+
+.count {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: white;
+}
+
+.increment {
+  background-color: #4caf50;
+}
+.increment:hover {
+  background-color: #45a049;
+}
+
+.decrement {
+  background-color: #f44336;
+}
+.decrement:hover {
+  background-color: #da190b;
+}
+
+.reset {
+  background-color: #2196f3;
+}
+.reset:hover {
+  background-color: #0b7dda;
+}
+
